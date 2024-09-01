@@ -1,0 +1,158 @@
+*{  margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+}
+
+
+.parent{
+    height: 100%;
+    width: 100vw;
+    background-color: white;
+    display: flex;
+}
+.sidebar{
+    background-color: rgb(229, 223, 223);
+    width: 300px;
+    height: 100%;
+    padding: 25px;
+
+}
+.logo{
+    width: 50px;
+    padding-top: 40px;
+}
+.dp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    }
+.name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+}
+.id{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+    font-size: small;
+
+}
+.all{
+    padding-left: 20px;
+    display: flex;
+    gap: 30px;
+}
+.home{
+    display: flex;
+    justify-content: centre;
+    align-items: center;  
+    gap: 20px;
+    font-size: small;
+    
+     
+}
+.search{
+    display: flex;
+    justify-content: centre;
+    align-items: center; 
+    gap: 20px;
+    font-size: small;
+}
+.reels{
+    display: flex;
+    justify-content: centre;
+    align-items: center; 
+    gap: 20px;
+    font-size: small;
+}
+.shop{
+    display: flex;
+    justify-content: centre;
+    align-items: center; 
+    gap: 20px;
+    font-size: small;
+}
+.account{
+    display: flex;
+    justify-content: centre;
+    align-items: center; 
+    gap: 20px;
+    font-size: small;
+}
+.line{
+    display: flex;
+    justify-content: centre;
+    align-items: center; 
+    gap: 30px;
+    font-size: small;
+}
+
+.searchbar{
+    border: 2px white;
+    background-color: rgb(230, 222, 222);
+    margin: 30px;
+    display: flex;
+    justify-content: left;
+    align-items:center;
+    height: 30px;
+    width: 200px;
+    gap: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: medium;
+    margin-left: 50px;
+}
+.stories{
+    font-size: x-large;
+    padding-left: 50px;
+
+}
+.s1{
+    display: flex;
+    justify-content:left;
+    align-items: flex-end;
+    padding-left: 50px;
+    gap: 20px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding-left: 40px;
+}
+.bin{
+    position: relative;
+}
+.plus{
+    position: absolute;
+    margin: 70px;
+}
+.feeds{
+    padding-left: 50px;
+}
+.feed{
+    display: grid;
+    gap: 20px;
+    padding-left: 50px;
+ }
+ .p1{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    
+ }
+ .p2{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    
+ }
+ .p3{
+    grid-row-start: 1;
+    grid-row-end: 2;
+ }
+ 
+
